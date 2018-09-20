@@ -51,6 +51,12 @@ public class JCedarLib {
         System.out.println(table);
     }
     public static String cutOut(String mainStr, String subStr){
-
+        int x = mainStr.indexOf(subStr);
+        String cut = "";
+        if(x > 0){
+            cut = mainStr.substring(0, x) + mainStr.substring(subStr.length() + x, mainStr.length());
+        }else if(x < 0){
+            return mainStr;
+        }
     }
 }
