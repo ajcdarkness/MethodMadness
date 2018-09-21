@@ -1,8 +1,8 @@
 package JCedar;
-
+//Jacob Cedar
 public class JCedarLib {
 
-    //Method creates an inverted string from the input string and compares the strings to eachother
+    //Method creates an inverted string from the input string and compares the strings to each other
     //Method Finds if the string is a palindrome
     public static boolean isPalindrome(String str){
         String y = "";

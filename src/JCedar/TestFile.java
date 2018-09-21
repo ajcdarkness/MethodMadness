@@ -1,6 +1,6 @@
 package JCedar;
-
-public class Main {
+//Jacob Cedar
+public class TestFile {
 
     public static void main(String[] args) {
 	JCedarLib.isPalindrome("no");
