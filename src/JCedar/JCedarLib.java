@@ -50,6 +50,7 @@ public class JCedarLib {
         }
         System.out.println(table);
     }
+    //If substring exists in mainstring cuts out substring from mainstring and recreates the mainstring
     public static String cutOut(String mainStr, String subStr){
         int x = mainStr.indexOf(subStr);
         String cut = "";
