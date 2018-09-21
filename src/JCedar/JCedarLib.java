@@ -55,8 +55,18 @@ public class JCedarLib {
         String cut = "";
         if(x > 0){
             cut = mainStr.substring(0, x) + mainStr.substring(subStr.length() + x, mainStr.length());
+            System.out.println(cut);
+            System.out.println("x>0");
+            return cut;
         }else if(x < 0){
+            System.out.println(mainStr);
             return mainStr;
+        }else if(x == 0){
+            cut = mainStr.substring(subStr.length(),mainStr.length());
+            System.out.println(cut);
+            return cut;
+
         }
+        return mainStr;
     }
 }
